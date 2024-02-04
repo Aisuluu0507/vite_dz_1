@@ -6,10 +6,19 @@ const NavBar = () => {
     <nav>
         <ul>
             <li>
-                <NavLink className ='link_one'to='/'>Posts</NavLink>
+                <NavLink className ='link_one'to='/'>All post</NavLink>
             </li>
             <li>
-                <NavLink className='link_two' to='/create_post' >Create Post</NavLink>
+                <NavLink className ='link_one'to='/post'>1-10 Page</NavLink>
+            </li>
+            <li>
+                <NavLink className ='link_one'to='/post3'>11-20 Page</NavLink>
+            </li>
+            <li>
+                <NavLink className ='link_one'to='/post4'>21-30 Page</NavLink>
+            </li>
+            <li>
+                <NavLink className ='link_one'to='/post5'>31-40 Page</NavLink>
             </li>
         </ul>
     </nav>
